@@ -1,0 +1,280 @@
+* {
+  font-family: Sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+#menu {
+  font-weight: 600;
+  font-size: 14px;
+  padding: 30px 70px 50px;
+  opacity: 0.7;
+}
+
+.left_menu {
+  float: left;
+}
+
+.right_menu {
+  float: right;
+}
+
+.main_menu li {
+  float: left;
+}
+
+.main_menu li a {
+  padding: 10px;
+}
+
+.big_image {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+#img_Container {
+  position: relative;
+}
+
+#img_Container h1 {
+  font-family: Source Serif Pro;
+  font-size: 50px;
+  position: absolute;
+  left: 90px;
+  top: 150px;
+  color: white;
+  padding: 0;
+}
+
+#img_Container p {
+  font-size: 19px;
+  position: absolute;
+  left: 90px;
+  top: 210px;
+  color: white;
+}
+
+#Places h2 {
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+#Places p {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.grid {
+  column-count: 3;
+  margin: 30px 0px 50px 50px;
+  column-gap: 40px;
+  column-width: 60px;
+}
+
+.img-above {
+  padding-bottom: 20px;
+}
+
+.grid-gap {
+  column-gap: 90px;
+}
+
+.footer_heading {
+  font-size: 23px;
+  font-family: Source Serif Pro;
+  padding-bottom: 10px;
+}
+
+.footer-item_link {
+  padding-top: 10px;
+  color: #00e5ff;
+  display: inline-block;
+}
+
+@media screen and (max-width:767px) {
+  .grid {
+    column-count: 1;
+    margin-right: 50px;
+  }
+  #menu {
+    background: #556270;
+  }
+  #menu a {
+    color: white;
+  }
+  #img_Container {
+    position: relative;
+  }
+  #img_Container h1 {
+    font-family: Sans-serif;
+    font-size: 26px;
+    position: static;
+    /* left: 90px;
+	  top: 150px; */
+    color: black;
+    padding: 0;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #img_Container p {
+    font-size: 19px;
+    position: static;
+    /* left: 90px;
+	  top: 210px; */
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  #Places {
+    background-color: white;
+    padding-right: 10px;
+    padding-top: 50px;
+    border-bottom: 0px solid #bdbdbd;
+  }
+
+  #Places h2 {
+    font-weight: 800;
+    margin-left: 50px;
+  }
+
+  #Places p {
+    margin-left: 50px;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #menu {
+    background: #556270;
+  }
+  #menu a {
+    color: white;
+  }
+  #img_Container {
+    position: relative;
+  }
+  #img_Container h1 {
+    font-family: Sans-serif;
+    font-size: 26px;
+    position: static;
+    /* left: 90px;
+	  top: 150px; */
+    color: black;
+    padding: 0;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  #img_Container p {
+    font-size: 19px;
+    position: static;
+    /* left: 90px;
+	  top: 210px; */
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  #Places {
+    background-color: white;
+    padding-right: 10px;
+    padding-top: 50px;
+    border-bottom: 0px solid #bdbdbd;
+  }
+
+  #Places h2 {
+    font-weight: 800;
+    margin-left: 50px;
+  }
+
+  #Places p {
+    margin-left: 50px;
+  }
+  .grid {
+    column-count: 1;
+    margin-left: 50px;
+    column-gap: 40px;
+    column-width: 60px;
+  }
+
+  .img-above {
+    padding-bottom: 0px;
+    width: 45%;
+    margin-top: 20px;
+  }
+  .img-below {
+    padding-bottom: 0px;
+    margin-left: 3%;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .img-out {
+    padding-bottom: 0px;
+    width: 45%;
+    margin-top: 20px;
+  }
+
+  .grid-gap {
+    column-gap: 90px;
+  }
+  .footer {
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-right: 70px;
+  }
+  .grid-column {
+    margin-bottom: 50px;
+  }
+  .grid-column p {
+    font-size: 14px;
+  }
+
+  .footer_heading {
+    font-size: 24px;
+    font-family: Sans-serif;
+    padding-bottom: 10px;
+    font-weight: 800;
+  }
+
+  .footer-item_link {
+    padding-top: 10px;
+    color: darkblue;
+    display: inline-block;
+    text-decoration: underline;
+  }
+}
+
+@media screen and (min-width:992px){
+  .big_image {
+    display: block;}
+    #Places {
+      background-color: #e0e0e0;
+      padding-right: 10px;
+      padding-top: 50px;
+      border-bottom: 1px solid #bdbdbd;
+    }
+    .footer {
+      background-color: #eeeeee;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      padding-right: 70px;
+    }
+}
